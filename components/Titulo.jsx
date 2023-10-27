@@ -1,8 +1,9 @@
-export default function Titulo(){
+export default function Titulo(info){
+        console.log(info)
     return (
         <>
-            <h1>Titulo</h1>
-            <h3>Subtítulo</h3>
+            <h1>{info.principal}</h1>
+            <h3>{info.secundario}</h3>
         </>
     )
 }
