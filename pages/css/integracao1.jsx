@@ -1,4 +1,3 @@
-import "./"
 
 export default function integracao() {
     return (
